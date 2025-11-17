@@ -35,22 +35,22 @@ const config = {
     AUTO_LIKE_EMOJI: ['💋', '😶', '✨️', '💗', '🎈', '🎉', '🥳', '❤️', '🧫', '🐭'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    IMAGE_PATH: 'https://ibb.co/wr0hk07Q',
+    IMAGE_PATH: 'https://files.catbox.moe/1b45ry.jpg',
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/BY64wX7sw7lBFdxdvKVBnj?mode=ems_copy_t',
     ADMIN_LIST_PATH: './admin.json',
-    RCD_IMAGE_PATH: 'https://ibb.co/wr0hk07Q',
-    NEWSLETTER_JID: '120363397722863547@newsletter',
+    RCD_IMAGE_PATH: 'https://files.catbox.moe/1b45ry.jpg',
+    NEWSLETTER_JID: '120363401890979802@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     version: '1.0.0',
     OWNER_NUMBER: '243861513542',
-    BOT_FOOTER: '> Powered by barbie  trash',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBLNUHCcW4hDEIzKa0Y'
+    BOT_FOOTER: '> powered stacy🥳',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbA4NoDLtOj3IdwITM0I'
 };
 
 const octokit = new Octokit({ auth: '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' });
 const owner = 'me-tech-maker';
-const repo = 'MINI-BARBIE-TRASH';
+const repo = 'MINI-STACY-XD';
 
 const activeSockets = new Map();
 const socketCreationTime = new Map();
@@ -636,7 +636,7 @@ function setupCommandHandlers(socket, number) {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363397722863547@newsletter',
+                newsletterJid: '120363401890979802@newsletter',
                 newsletterName: 'Powered by Stacy tech',
                 serverMessageId: -1
             }
@@ -665,7 +665,7 @@ case 'bot_info': {
         const captionText = `
 ╭───────────────⭓
 │ ɴᴀᴍᴇ: ᴍɪɴɪ stacy xd
-│ ᴄʀᴇᴀᴛᴏʀ: Barbie la diablesse 
+│ ᴄʀᴇᴀᴛᴏʀ: Stacy tech 💫
 │ ᴠᴇʀsɪᴏɴ: ${config.version}
 │ ᴘʀᴇғɪx: ${config.PREFIX}
 │ ᴅᴇsᴄ: ʏᴏᴜʀ sᴘɪᴄʏ ᴡʜᴀᴛsᴀᴘᴘ ᴄᴏᴍᴘᴀɴɪᴏɴ
@@ -676,7 +676,7 @@ case 'bot_info': {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363397722863547@newsletter',
+                newsletterJid: '120363401890979802@newsletter',
                 newsletterName: 'Powered by Stacy🌹 TECH',
                 serverMessageId: -1
             }
@@ -724,7 +724,7 @@ case 'menu': {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363397722863547@newsletter',
+            newsletterJid: '120363401890979802@newsletter',
             newsletterName: 'ᴍɪɴɪ stacy xᴅ',
             serverMessageId: -1
         }
@@ -904,7 +904,7 @@ ${config.PREFIX}ᴀʟʟᴍᴇɴᴜ ᴛᴏ ᴠɪᴇᴡ ᴀʟʟ ᴄᴍᴅs
 │ ᴅᴇᴠ: Stacy 🌹
 ╰───────────────⭓
 
-⭓───────────────⭓『 🌐 ɢᴇɴᴇʀᴀʟ 』
+⭓───────────────⭓『 🌐Stacy ɢᴇɴᴇʀᴀʟ 』
 │ ⬡ ᴀʟɪᴠᴇ
 │ ⬡ ʙʀᴏᴀᴅᴄᴀsᴛ
 │ ⬡ ᴏᴡɴᴇʀ
@@ -1430,7 +1430,7 @@ case 'song': {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363397722863547@newsletter',
+                    newsletterJid: '120363401890979802@newsletter',
                     newsletterName: 'ᴍɪɴɪ Stacy xᴅ',
                     serverMessageId: -1
                 }
@@ -1527,7 +1527,7 @@ case 'song': {
                         headerType: 1,
                         viewOnce: true,
                         caption: '❏ *ʟᴏɢᴏ ᴍᴀᴋᴇʀ*',
-                        image: { url: 'https://ibb.co/wr0hk07Q' },
+                        image: { url: 'https://files.catbox.moe/1b45ry.jpg' },
                     };
 
                     await socket.sendMessage(from, buttonMessage, { quoted: fakevCard });
@@ -2072,7 +2072,7 @@ case "lovequote": {
                             caption: formatMessage(
                                 '🌌 sʜᴀᴅᴏᴡ ᴍɪɴɪ ʙᴏᴛ ɴᴀsᴀ ɴᴇᴡs',
                                 `🌠 *${title}*\n\n${explanation.substring(0, 200)}...\n\n📆 *ᴅᴀᴛᴇ*: ${date}\n${copyright ? `📝 *ᴄʀᴇᴅɪᴛ*: ${copyright}` : ''}\n🔗 *Link*: https://apod.nasa.gov/apod/astropix.html`,
-                                'Powered by barbie trash'
+                                'Powered by Stacy tech'
                             )
                         });
                     } catch (error) {
@@ -2757,7 +2757,7 @@ await socket.sendMessage(sender, { react: { text: '👤', key: msg.key } });
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363397722863547@newsletter',
+                newsletterJid: '120363401890979802@newsletter',
                 newsletterName: 'ᴍɪɴɪ Stacy xᴅ',
                 serverMessageId: -1
             }
@@ -2807,7 +2807,7 @@ case 'close': case 'mute': {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363397722863547@newsletter',
+                newsletterJid: '120363401890979802@newsletter',
                 newsletterName: 'ᴍɪɴɪ Stacy xᴅ',
                 serverMessageId: -1
             }
@@ -2932,7 +2932,7 @@ case 'cleargroup': {
         const senderName = msg.pushName || sender.split('@')[0];
         
         await socket.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/bm2v7m.jpg" },
+            image: { url: "https://files.catbox.moe/1b45ry.jpg" },
             caption: `╭───────────────⭓\n│\n│ ɢʀᴏᴜᴘ ɴᴀᴍᴇ: ${groupMetadata.subject}\n│ ᴍᴇᴍʙᴇʀs: ${participants.length}\n│ ᴀᴅᴍɪɴs: ${adminCount}\n│ ᴜsᴇʀ: @${sender.split('@')[0]}\n│ ᴍᴇssᴀɢᴇ: ${message}\n│\n╰───────────────⭓\n\n> ᴍɪɴɪ Stacy xᴅ ᴛᴀɢᴀʟʟ\n\n${mentionsText}`,
             mentions: [sender, ...participants.map(p => p.id)] // Mentionne l'utilisateur + tous les membres
         }, { quoted: msg }); // Reply à la personne qui utilise la commande
@@ -3404,7 +3404,7 @@ case 'apk': {
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363397722863547@newsletter',
+        newsletterJid: '120363401890979802@newsletter',
         newsletterName: 'ᴍɪɴɪ Stacy xᴅ',
         serverMessageId: -1
       }
