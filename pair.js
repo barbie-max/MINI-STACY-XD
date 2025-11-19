@@ -35,16 +35,16 @@ const config = {
     AUTO_LIKE_EMOJI: ['💋', '😶', '✨️', '💗', '🎈', '🎉', '🥳', '❤️', '🧫', '🐭'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    IMAGE_PATH: 'https://ibb.co/wr0hk07Q',
+    IMAGE_PATH: 'https://files.catbox.moe/1b45ry.jpg',
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/BY64wX7sw7lBFdxdvKVBnj?mode=ems_copy_t',
     ADMIN_LIST_PATH: './admin.json',
-    RCD_IMAGE_PATH: 'https://ibb.co/wr0hk07Q',
+    RCD_IMAGE_PATH: 'https://files.catbox.moe/1b45ry.jpg',
     NEWSLETTER_JID: '120363397722863547@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     version: '1.0.0',
     OWNER_NUMBER: '243861513542',
-    BOT_FOOTER: '> Powered by barbie  trash',
+    BOT_FOOTER: '> Powered by starcy',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBLNUHCcW4hDEIzKa0Y'
 };
 
