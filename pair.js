@@ -341,7 +341,7 @@ async function handleMessageRevocation(socket, number) {
         const message = formatMessage(
             '🗑️ MESSAGE DELETED',
             `A message was deleted from your chat.\n📋 From: ${messageKey.remoteJid}\n🍁 Deletion Time: ${deletionTime}`,
-            'Powered by stacy🌹 tech'
+            'Powered by stacy🌹 tech X Jodapi'
         );
 
         try {
